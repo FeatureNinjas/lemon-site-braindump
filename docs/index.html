@@ -6,6 +6,7 @@
   
   <!-- HTML Meta Tags -->
   <title>Braindump - Write down throughts. Fast.</title>
+  <meta name="description" content="The digital notebook for developers, and makers. Offline. Pure markdown. Keyboard only navigation.">
 
   <!-- Facebook Meta Tags -->
   <meta property="og:url" content="https://getbraindump.app/">
@@ -43,7 +44,7 @@ console.log('hello from bodyTop')
 
 
 <div class='container mx-auto'>
-<div class="flex flex-row flex-grow items-center px-8 gap-2 mt-4"><div class="undefined"><img class="dark:hidden w-9" src="assets/logo_thin_light.svg"></img><img class="hidden dark:inline w-9" src="assets/logo_thin_dark.svg"></img></div>
+<div class="flex flex-row flex-grow items-center px-8 gap-2 mt-4"><div class="undefined"><img class="dark:hidden w-9" src="assets/logo_thin_light.svg" alt=""></img><img class="hidden dark:inline w-9" src="assets/logo_thin_dark.svg" alt=""></img></div>
 <p class="text-xl font-mono">Braindump</p>
 <div class="flex-grow"></div>
 <div class="undefined"><button class="align-middle flex flex-row" onclick="onClickLightDark()"><span><span class="dark:hidden">
@@ -61,7 +62,7 @@ console.log('hello from bodyTop')
 </div>
 <h1 class="font-mono text-5xl font-bold text-[#1F2937] dark:text-[#FFFFFF] px-8 mt-10 mx-auto text-center max-w-7xl">Write down thoughts. Fast.</h1>
 <p class="text-lg font-light text-[#6B7280] dark:text-[#9CA3AF] px-8 mt-6 mx-auto text-center max-w-xl">The digital notebook for developers, and makers. Ultra fast fuzzy search. Mouse or Keyboard only navigation. Pure markdown with auto formatting and indentation. Offline.</p>
-<div class="mx-auto flex flex-row justify-center mt-8 mb-1"><select data-var="dlv" class="bg-transparent border border-gray-500 my-2 text-sm text-center" onchange="selectOnChange(event)"><option value='{ "build": "103", "version": "0.6.0" }' >v0.6.0</option><option value='{ "build": "105", "version": "0.6.1" }' >v0.6.1</option><option value='{ "build": "109", "version": "0.6.2" }' >v0.6.2</option><option value='{ "build": "111", "version": "0.6.3" }' >v0.6.3</option><option value='{ "build": "117", "version": "0.7.0" }' >v0.7.0</option><option value='{ "build": "131", "version": "0.8.0" }' >v0.8.0</option><option value='{ "build": "139", "version": "0.9.0" }' >v0.9.0</option><option value='{ "build": "141", "version": "0.9.1" }' selected>v0.9.1</option></select>
+<div class="mx-auto flex flex-row justify-center mt-8 mb-1"><select data-var="dlv" class="bg-transparent border border-gray-500 my-2 text-sm text-center" onchange="selectOnChange(event)"><option value='{ "build": "103", "version": "0.6.0" }' >v0.6.0</option><option value='{ "build": "105", "version": "0.6.1" }' >v0.6.1</option><option value='{ "build": "109", "version": "0.6.2" }' >v0.6.2</option><option value='{ "build": "111", "version": "0.6.3" }' >v0.6.3</option><option value='{ "build": "117", "version": "0.7.0" }' >v0.7.0</option><option value='{ "build": "131", "version": "0.8.0" }' >v0.8.0</option><option value='{ "build": "139", "version": "0.9.0" }' >v0.9.0</option><option value='{ "build": "141", "version": "0.9.1" }' >v0.9.1</option><option value='{ "build": "7", "version": "0.10.0" }' selected>v0.10.0</option></select>
 </div>
 <div class="mx-auto flex flex-row gap-4 justify-center flex-wrap px-8"><div class="undefined"><button class="dark:bg-yellow-400 bg-yellow-400 p-3 rounded-sm gap-2 self-center flex flex-col items-center dark:text-gray-800 text-gray-800 w-44 place-content-center cursor-pointer" onclick="buttonLink('https://braindump-releases.s3.eu-central-1.amazonaws.com/Braindump_$var(dlv.version)_$var(dlv.build)/Braindump+Setup+$var(dlv.version).exe')"><div class="undefined"><svg viewBox="0 0 384 512" width="32"><path fill="currentColor" d="M0,93.7l183.6,-25.3v177.4h-183.6v-152.1Zm0,324.6l183.6,25.3v-175.2h-183.6v149.9Zm203.8,28l244.2,33.7v-211.6h-244.2v177.9Zm0,-380.6v180.1h244.2v-213.8l-244.2,33.7Z"></path></svg></div>
 <p class="font-bold">Windows</p>
@@ -80,17 +81,17 @@ console.log('hello from bodyTop')
 </div>
 </div>
 </div>
-<div class="mt-6 mb-4 max-w-3xl mx-auto"><img class="dark:hidden undefined" src="assets/v0.7.0_features_light.png"></img><img class="hidden dark:inline undefined" src="assets/v0.7.0_features_dark.png"></img></div>
+<div class="mt-6 mb-4 max-w-3xl mx-auto"><img class="dark:hidden undefined" src="assets/v0.7.0_features_light.png" alt=""></img><img class="hidden dark:inline undefined" src="assets/v0.7.0_features_dark.png" alt=""></img></div>
 <p class="my-10 max-w-7xl mx-auto text-center text-3xl font-bold font-mono px-8 dark:text-white text-gray-800">Features</p>
 <div class="grid grid-cols-2 max-w-2xl mx-auto py-4 gap-4 px-8"><div class="flex flex-col"><p class="text-lg font-bold font-mono">Fuzzy Search</p>
 <p class="font-light dark:text-gray-400 text-gray-500">Write down your notes first. Organize later. Or use the ultra fast fuzzy search to find anything whenever you want. Hit ESC or Cmd/Ctrl+P to start.</p>
 </div>
-<div class="undefined"><img class="undefined" src="assets/v0.9.0_fuzzy_search.gif"></img></div>
+<div class="undefined"><img class="undefined" src="assets/v0.9.0_fuzzy_search.gif" alt=""></img></div>
 </div>
 <div class="grid grid-cols-2 max-w-2xl mx-auto py-4 gap-4 mb-48 px-8"><div class="flex flex-col"><p class="text-lg font-bold font-mono">Snippets</p>
 <p class="font-light dark:text-gray-400 text-gray-500">Create your own snippets to quickly add repetitive information. This also helps to structure things that repeat often.</p>
 </div>
-<div class="undefined"><img class="undefined" src="assets/v0.9.0_snippets.gif"></img></div>
+<div class="undefined"><img class="undefined" src="assets/v0.9.0_snippets.gif" alt=""></img></div>
 </div>
 
 </div>
